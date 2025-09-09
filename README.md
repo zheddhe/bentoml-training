@@ -1,7 +1,8 @@
 # bentoml-training
+
 Entrainement sur les concepts de containerisation (bento) et déploiement en production avec BentoML
 
-## Setup Initial
+## Setup VM
 
 ### Initialisation des dépendances de la VM (one time)
 
@@ -49,3 +50,10 @@ pipx --version
 uv --version
 ```
 
+## Setup environnement virtuel (one time)
+
+```bash
+# A executer dans le repository cloné
+uv venv .venv
+source .venv/bin/activate
+```
